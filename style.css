@@ -1,0 +1,164 @@
+* , html ,body {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: 'Poppins';
+    overflow-x: hidden;
+    color: white;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/*=============================================================================*/
+
+
+nav {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: fixed;
+    top: 0%;
+    background-color: black;
+    width: 100%;
+    border-bottom: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    padding-right: 30px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    font-weight: 500;
+}
+
+.beranda {
+    background-color:  rgb(41, 37, 37);
+}
+
+nav a:hover {
+    background-color: rgb(73, 68, 68);
+    transition: 1s ease-in-out;
+}
+
+/*=============================================================================*/
+.kepala {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 120px;
+    padding-bottom: 5%;
+}
+.Welcome-h1 {
+    color: black;
+
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    font-size: 2em;
+}
+
+.kata-kata {
+    color: black;
+    width: 30%;
+    font-size: 1.5em;
+}
+
+
+/*=============================================================================*/
+
+
+.box-beranda {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 80%;
+}
+.box {
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    position: relative;
+    top: 130px;
+    left: 10%;
+    width: 40%;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+}
+.box h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
+}
+.box p {
+    display: flex;
+    justify-content: left;
+    padding: 10px;
+    font-size: 1.9em;
+}
+/*=============================================================================*/
+.fotter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0%;
+    background-color: black;
+    width: 100%;
+    border-bottom: 10px;
+}
+
+.fotter p {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    font-weight: 500;
+
+}
+
+@media screen and (max-width:400px) {
+    .Welcome-h1 h1 {
+        font-size: 1em;
+    }
+    .Welcome-h1 p {
+        font-size: 0.5em;
+    }
+    .box h1 {
+        font-size: 0.8em;
+    }
+    .box p {
+        font-size: 0.7em;
+    }
+    .selanjutnya {
+        font-size: 0.7em;
+    }
+    nav {
+        font-size: 0.5em;
+    }
+    .Nav-Menu a {
+    font-size: 1em;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    }
+
+}
+
+@media screen and (min-width:1500px) {
+    .fotter p {
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    font-weight: 500;
+}
+}
