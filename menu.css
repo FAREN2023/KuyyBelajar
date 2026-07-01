@@ -199,6 +199,8 @@ nav a:hover {
     padding-top: 10px;
     }
 
+    width: 120px;
+
 }
 @media screen and (min-width:1500px) {
     .fotter p {
